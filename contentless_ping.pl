@@ -67,8 +67,8 @@ Irssi::settings_add_int($IRSSI{'name'}, 'contentless_ping_sleep_max', 10);
 
 Irssi::settings_add_int($IRSSI{'name'}, 'contentless_ping_num', 2);
 
-Irssi::settings_add_str($IRSSI{'name'}, 'contentless_ping_regexp_1', '$own_nick[,:] ping[\s!?.]*$');
+Irssi::settings_add_str($IRSSI{'name'}, 'contentless_ping_regexp_1', '$own_nick[,:]\s+ping[\s!?.]*$');
 Irssi::settings_add_str($IRSSI{'name'}, 'contentless_ping_action_1', 'msg $channel $nick: pong');
 
-Irssi::settings_add_str($IRSSI{'name'}, 'contentless_ping_regexp_2', '$own_nick[,:] (around|ayt|(are )?you there)[\s?.]*$');
+Irssi::settings_add_str($IRSSI{'name'}, 'contentless_ping_regexp_2', '$own_nick[,:]\s+(around|ayt|(are\s+)?you\s+there)[\s?.]*$');
 Irssi::settings_add_str($IRSSI{'name'}, 'contentless_ping_action_2', 'msg $channel $nick: What\'s up?');
