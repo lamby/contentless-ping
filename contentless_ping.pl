@@ -9,7 +9,7 @@ my $VERSION = "0.4";
 	name => 'contentless_ping',
 	description => 'notifies people that contentless pings are annoying."',
 	license => 'GPLv2',
-	url => 'http://git.chris-lamb.co.uk/?p=contentless-ping.git',
+	url => 'https://github.com/lamby/contentless-ping',
 	changed => 'Mon, 27 Aug 2007 16:49:38 +0100'
 );
 
